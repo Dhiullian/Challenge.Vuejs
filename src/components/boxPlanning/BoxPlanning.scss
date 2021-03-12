@@ -1,0 +1,21 @@
+#planning {
+    display: flex;
+    .minding {
+        max-width: 300px;
+        margin-left: 100px;
+
+        h2 {
+            color: #ff9700;
+        }
+        p {
+            color: #323469;
+            font-weight: 500;
+            font-size: 1.12rem;
+        }
+    }
+    .align-form{
+        margin-left: auto;
+        margin-right: 100px;
+        margin-top: -280px;
+    }
+}
