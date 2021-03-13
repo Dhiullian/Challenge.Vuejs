@@ -39,4 +39,18 @@
     @media (max-width: 965px) {
         margin: -480px auto 0;
     }
+
+    @media (max-width: 500px) {
+        max-width: 300px;
+        margin: -375px auto 0;
+
+        h1 {
+            font-size: 5rem;
+            margin-bottom: 30px;
+        }
+
+        .btn-consult {
+            font-size: 1.2rem;
+        }
+    }
 }
