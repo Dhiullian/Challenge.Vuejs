@@ -11,6 +11,7 @@
         :pageSize="4"
         :items="postes"
         @changePage="onChangePage"
+        :maxPages="3"
       ></jw-pagination>
     </div>
   </div>
