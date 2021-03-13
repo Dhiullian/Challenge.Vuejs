@@ -33,8 +33,10 @@
                 }
             }
             .disabled {
+                
                 a {
                     background-color: #80808075 !important;
+                    cursor: unset !important;
                 }
             }
         }
