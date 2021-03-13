@@ -1,6 +1,10 @@
 export default {
   name: 'Banner',
   data: () => ({
-    banner: 'https://picsum.photos/1080/600?blur'
-  })
+    banner: '',
+    windowWidth: window.innerWidth
+  }),
+  created(){
+    this.banner = `https://picsum.photos/${this.windowWidth}/600?blur`
+  }
 }
