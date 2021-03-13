@@ -6,8 +6,4 @@ import Blog from '../../components/blog/Blog.vue'
 export default {
   name: 'Home',
   components: { Banner, BoxSeeMore, BoxPlanning, Blog },
-  async created() {
-    const res = await this.REQUESTS.gets.getPosts()
-    console.log(res);
-  }
 }

@@ -6,7 +6,7 @@
 
 <style lang="scss">
 body {
-  margin: 0;
+  margin: 0 0 20px;
   padding: 0;
   font-family: roboto;
 }

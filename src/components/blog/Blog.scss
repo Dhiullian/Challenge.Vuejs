@@ -15,36 +15,21 @@
         flex-wrap: wrap;
         justify-content: center;
         padding: 10px 20px;
+    }
 
-        .card {
-            border: 3px solid #323469;
-            max-width: 400px;
-            margin: 0 20px 20px;
-            img {
-                width: 100%;
-            }
-            .about {
-                padding: 20px;
-                h3,
-                p {
-                    color: #323469;
-                }
-            }
-            .check {
-                background-color: #323469;
-                height: 60px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+    .box-pagination {
+        width: 100;
+        display: flex;
+        justify-content: center;
 
-                .btn-continue {
-                    border-radius: 20px;
+        .pagination {
+            background-color: #323469;
+            color: #fff;
+            border-radius: 5px;
+            display: flex;
+            .active {
+                a {
                     background-color: #ff9b23;
-                    color: #fff;
-                    border: unset;
-                    padding: 10px 20px;
-                    cursor: pointer;
-                    outline: none;
                 }
             }
         }
