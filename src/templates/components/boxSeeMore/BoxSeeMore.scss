@@ -1,7 +1,7 @@
 #seeMore {
     border: 4px solid #323469;
     position: relative;
-    margin: -480px 0 0 100px;
+    margin: -440px 0 0 100px;
     padding: 15px 20px;
     max-width: 350px;
     z-index: 5;
@@ -17,7 +17,7 @@
         margin-bottom: -10px;
     }
     h1 {
-        font-size: 8rem;
+        font-size: 7rem;
         margin-bottom: 50px;
         font-weight: 900;
         line-height: 1.2;
@@ -37,7 +37,7 @@
     }
 
     @media (max-width: 965px) {
-        margin: -480px auto 0;
+        margin: -440px auto 0;
     }
 
     @media (max-width: 500px) {
