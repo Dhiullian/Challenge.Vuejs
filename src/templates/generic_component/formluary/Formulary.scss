@@ -1,0 +1,33 @@
+#formulary {
+    .box-input {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+
+        label {
+            color: #fff;
+            margin-bottom: 2px;
+        }
+    }
+
+    .send {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+
+        input {
+            outline: none !important;
+        }
+
+        .btn-continue {
+            border-radius: 20px;
+            background-color: #ff9b23;
+            color: #fff;
+            border: unset;
+            padding: 10px 20px;
+            cursor: pointer;
+            outline: none;
+        }
+    }
+}
