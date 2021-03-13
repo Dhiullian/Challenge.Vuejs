@@ -18,4 +18,18 @@
         margin-right: 100px;
         margin-top: -280px;
     }
+
+    @media(max-width:965px){
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+
+        .minding {
+            text-align: center;
+            margin: unset;
+        }
+        .align-form{
+           margin: unset;
+        }
+    }
 }

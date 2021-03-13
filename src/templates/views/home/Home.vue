@@ -2,7 +2,7 @@
   <div id="home">
     <Banner />
     <BoxSeeMore />
-    <BoxPlanning />
+    <Planning />
     <Blog />
   </div>
 </template>

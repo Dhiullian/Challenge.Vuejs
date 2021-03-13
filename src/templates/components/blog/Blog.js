@@ -16,7 +16,6 @@ export default {
     methods: {
         onChangePage(pageOfItems) {
             this.pagination = pageOfItems
-            location.href = "#blog"
         },
         ...mapActions(['actionGetPostes'])
     },

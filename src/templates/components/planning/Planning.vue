@@ -11,5 +11,5 @@
   </div>
 </template>
 
-<script src="./BoxPlanning.js" />
-<style lang="scss" src="./BoxPlanning.scss" />
+<script src="./Planning.js" />
+<style lang="scss" src="./Planning.scss" />
