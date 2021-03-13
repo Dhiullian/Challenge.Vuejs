@@ -6,7 +6,13 @@ export default {
     components: { Card },
     data: () => ({
         pagination: [],
-        loading: true
+        loading: true,
+        customLabels: {
+            first: 'inicio',
+            last: 'fim',
+            previous: 'ant',
+            next: 'prox'
+        }
 
     }),
     async created() {

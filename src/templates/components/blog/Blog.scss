@@ -32,6 +32,11 @@
                     background-color: #ff9b23;
                 }
             }
+            .disabled {
+                a {
+                    background-color: #80808075 !important;
+                }
+            }
         }
     }
 }

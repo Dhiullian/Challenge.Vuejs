@@ -4,10 +4,4 @@
   </div>
 </template>
 
-<style lang="scss">
-body {
-  margin: 0 0 20px;
-  padding: 0;
-  font-family: roboto;
-}
-</style>
+<style lang="scss" src="./App.scss" />

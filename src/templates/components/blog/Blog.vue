@@ -12,7 +12,8 @@
         :items="postes"
         @changePage="onChangePage"
         :maxPages="3"
-      ></jw-pagination>
+        :labels="customLabels"
+      />
     </div>
   </div>
 </template>
