@@ -1,5 +1,7 @@
 # challenge.vue
 
+## Reproduçao da pagina home de um layout pré-definido
+
 ## Project setup
 ```
 npm install
